@@ -6,5 +6,9 @@ int main()
     for(i=0;i<n;i++)
     {
         scanf("%d" ,&num);
+        if(max<num)
+        {
+            max=num;
+        }
     }
 }
