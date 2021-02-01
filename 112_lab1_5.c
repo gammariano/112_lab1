@@ -18,7 +18,6 @@ int main()
                 max2=i;
             }
             max1=a1;
-
         }
     }
     printf("%d %d" ,max2,max1);
