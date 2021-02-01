@@ -1,17 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int num,n,i,max=0,count;
-    scanf("%d" ,n);
-    for(i=0;i<n;i++)
-    {
-        scanf("%d" ,&num);
-        if(max<num)
-        {
-            max=num;
-            count=num;
-        }
-    }
-    printf
+    int i,num,a1,max1=0,max2;
+    scanf("%d" ,&num);
+
     return 0;
 }
