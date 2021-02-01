@@ -7,12 +7,16 @@ int main()
     scanf("%d %d %li" ,&n,&m,&t);
     fflush(stdin);
     scanf("%c" ,&feet);
-
     if(feet == 'L')
     {
-        for(i=1;i<=t;i++)
+        for(i=1;i<=t+1;i++)
         {
-
+            a=a+n;
+            if(a>t)
+            {
+                direct='L';
+                break;
+            }
         }
     }
     else if(feet == 'R')
