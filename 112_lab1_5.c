@@ -6,22 +6,21 @@ int main()
     for(i=1;i<=num;i++)
     {
         scanf("%d" ,&a1);
-        if(max1<a1)
+        if(a1>max1)
         {
-            max2=a1;
-            if(max2==a1)
+            if(max1==a1)
             {
-                max1=i;
+                max2=i;
                 break;
             }
             else
             {
-                max1=i;
-                continue;
+                max2=i;
             }
+            max1=a1;
 
         }
     }
-    printf("%d %d" ,max1,max2);
+    printf("%d %d" ,max2,max1);
     return 0;
 }
