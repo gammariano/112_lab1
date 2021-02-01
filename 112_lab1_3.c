@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,a,b;
-    scanf("%d" ,&n);
+    unsigned long long int n,a,b;
+    scanf("%llu" ,&n);
     a=n%3;
     b=n%11;
-    printf("%d %d" ,a,b);
+    printf("%llu %llu" ,a,b);
     return 0;
 }
