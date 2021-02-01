@@ -3,7 +3,6 @@ int main()
 {
     float time24,time12;
     scanf("%f" ,&time24);
-
     if(time24==12.00)
     {
         printf("%.2f p.m." ,time24);
