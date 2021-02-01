@@ -14,6 +14,11 @@ int main()
                 max1=i;
                 break;
             }
+            else
+            {
+                max1=i;
+                continue;
+            }
 
         }
     }
