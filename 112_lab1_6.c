@@ -17,6 +17,12 @@ int main()
                 direct='L';
                 break;
             }
+            a=a+m;
+            if(a>t)
+            {
+                direct='R';
+                break;
+            }
         }
     }
     else if(feet == 'R')
