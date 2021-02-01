@@ -6,7 +6,7 @@ int main()
     char feet,direct;
     scanf("%d %d %li" ,&n,&m,&t);
     fflush(stdin);
-    scanf("%c" ,&direct);
+    scanf("%c" ,&feet);
     for(i=1;i<=t;i++)
     {
         if(direct == 'L')
